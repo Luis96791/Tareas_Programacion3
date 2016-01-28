@@ -74,6 +74,14 @@ int main( int argc, char* args[] )
                     rect_character.x-=15;
                 if(Event.key.keysym.sym == SDLK_w)
                     rect_character.y-=15;
+                if(Event.key.keysym.sym == SDLK_RIGHT)
+                    rect_character2.x+=15;
+                if(Event.key.keysym.sym == SDLK_LEFT)
+                    rect_character2.x-=15;
+                if(Event.key.keysym.sym == SDLK_UP)
+                    rect_character2.y-=15;
+                if(Event.key.keysym.sym == SDLK_DOWN)
+                    rect_character2.y+=15;
             }
         }
 
